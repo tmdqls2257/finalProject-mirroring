@@ -1,0 +1,19 @@
+.button {
+  width: 181px;
+  height: 70px;
+
+  border: none;
+  border-radius: 20px 20px 0 0;
+  background-color: #efefef;
+  z-index: 1;
+}
+.section {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+@media screen and (min-width: 769px) {
+  .section {
+    display: none;
+  }
+}
